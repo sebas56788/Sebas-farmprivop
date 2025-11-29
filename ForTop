@@ -16,8 +16,8 @@ local rebirthsStat = leaderstats:WaitForChild("Rebirths")
 -- TU LIBRERÍA
 local SebasGUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/sebas56788/SebaslibUi/main/Sebaslbui.lua"))()
 
--- NOMBRE PERSONALIZADO
-local window = library:AddWindow("🚀 Sebas | Farm", {
+-- ✅ CORREGIDO: Cambiar library por SebasGUI
+local window = SebasGUI:AddWindow("🚀 Sebas | Farm", {
     main_color = Color3.fromRGB(138, 0, 0),
     min_size = Vector2.new(600, 600),
     can_resize = false
@@ -796,5 +796,6 @@ creditsLabel.TextSize = 16
 infoTab:AddLabel("").TextSize = 10
 
 local wLabel = infoTab:AddLabel("PRIVATE SEBAS🦾😎")
+
 wLabel.TextSize = 30
 wLabel.Font = Enum.Font.Arcade
