@@ -790,7 +790,7 @@ local infoTab = window:AddTab("Info")
 infoTab:Show()
 
 -- CRÉDITOS PERSONALIZADOS
-local creditsLabel = infoTab:AddLabel("by: Me (Sebas)🔥")
+local creditsLabel = infoTab:AddLabel("SEBAS ON TOP🔥🤫")
 creditsLabel.TextSize = 16
 
 infoTab:AddLabel("").TextSize = 10
